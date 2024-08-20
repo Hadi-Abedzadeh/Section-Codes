@@ -1,0 +1,114 @@
+#fname,#number,#submit {
+    border: 1px solid rgb(167 167 167/78%);
+    padding: 10px;
+    border-radius: 7px;
+    background: #eee;
+    width: 100%;
+    font-family: iransans;
+
+}
+.lead{
+    font-family: iransans;
+}
+
+
+
+label {
+    font-family: iransans;
+    text-align: right;
+}
+
+.btn {
+    margin: 20px auto;
+    text-align: center;
+    width: 52%;
+    display: block;
+    background-color: #70d3e6;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: iransans !important;
+
+}
+
+.close-button {
+    font-family: iransans;
+    right: none!important;
+    left: 15px!important;
+    top: 20px;
+    text-align: left
+}
+
+.modal {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5)
+}
+
+@media print,screen and (min-width:40em) {
+    .reveal.small {
+        width: 17%;
+        max-width: 75rem;
+        border-radius: 10px
+    }
+
+    .reveal-overlay {
+        text-align: center!important;
+        margin: 0 auto!important;
+        border-radius: 10px!important;
+        box-shadow: 2px 3px 9px 2px #a3a3a3!important
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .footer2 {
+        z-index: 99999;
+        height: 90px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background-color: #fff;
+        display: block;
+        padding: 15px 5px;
+        box-shadow: -1px -1px 6px 2px #cbcbcb
+    }
+}
+
+@media screen and (max-width:639px) {
+    .reveal-overlay {
+        top: 35px!important;
+        width: 75%;
+        max-height: 360px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 2px #d9d9d9
+    }
+
+    .reveal {
+        border: 0;
+        border-radius: 0;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        margin-left: 0;
+        max-width: none;
+        min-height: 100%;
+        right: 0;
+        top: 0;
+        width: 100%
+    }
+}
